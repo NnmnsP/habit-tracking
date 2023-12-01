@@ -209,5 +209,6 @@ class MainActivity : ComponentActivity() {
             preferencesRepository.setPermissionShown()
         }
     }
+
 }
 
