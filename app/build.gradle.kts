@@ -7,6 +7,10 @@ plugins {
     id("dagger.hilt.android.plugin")
     id("com.google.devtools.ksp")
     kotlin("plugin.serialization") version "1.9.0"
+    // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
+    // Add the Crashlytics Gradle plugin
+    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -26,7 +30,7 @@ android {
         }
         signingConfig = signingConfigs.getByName("debug")
 
-        resourceConfigurations.plus(listOf("ru", "en"))
+        resourceConfigurations.plus(listOf("en"))
     }
 
     buildTypes {
@@ -49,9 +53,6 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-
-            applicationIdSuffix = ".debug"
-            versionNameSuffix = "-DEBUG"
 
             manifestPlaceholders["appIcon"] = "@mipmap/ic_launcher_beta"
             manifestPlaceholders["appIconRound"] = "@mipmap/ic_launcher_beta_round"
@@ -131,4 +132,14 @@ dependencies {
     implementation(libs.vico.compose.m3)
     implementation(libs.vico.core)
     implementation(libs.vico.views)
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
+    // Add the dependency for the Firebase SDK for Google Analytics
+    implementation("com.google.firebase:firebase-analytics")
+    // Import the BoM for the Firebase platform
+    implementation(platform("com.google.firebase:firebase-bom:32.6.0"))
+
+    // Add the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation("com.google.firebase:firebase-crashlytics")
 }
