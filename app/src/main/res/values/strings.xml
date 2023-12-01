@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Habit tracker</string>
+    <string name="app_name_beta">[B] Habit tracker</string>
+
+    <!-- Common -->
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="remove_button">Remove</string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="bottom_nav_home">Today</string>
+    <string name="bottom_nav_habits">Habits</string>
+    <string name="bottom_nav_settings">Settings</string>
+    <string name="action_read_summary">Read</string>
+    <string name="action_read_name">pages</string>
+
+    <string name="day_1_short">Mon</string>
+    <string name="day_2_short">Tue</string>
+    <string name="day_3_short">Wed</string>
+    <string name="day_4_short">Thu</string>
+    <string name="day_5_short">Fri</string>
+    <string name="day_6_short">Sat</string>
+    <string name="day_7_short">Sun</string>
+
+    <string name="day_1_short_1">M</string>
+    <string name="day_2_short_1">T</string>
+    <string name="day_3_short_1">W</string>
+    <string name="day_4_short_1">T</string>
+    <string name="day_5_short_1">F</string>
+    <string name="day_6_short_1">S</string>
+    <string name="day_7_short_1">S</string>
+
+    <string name="reminder_icon_description">Reminder icon</string>
+    <string name="failed_icon_description">Warning icon</string>
+    <string name="icon_left_description">Icon left</string>
+    <string name="icon_right_description">Icon right</string>
+    <string name="edit_icon_description">Edit icon</string>
+    <string name="statistic_icon_description">Statistic icon</string>
+    <string name="statistic_month">Month</string>
+    <string name="statistic_year">Year</string>
+
+    <!-- Today screen -->
+    <string name="today_screen_statistics_title">Statistics</string>
+    <string name="today_screen_latest_title">Latest habits</string>
+    <string name="today_screen_habit_state_icon_description">Habit state icon</string>
+    <string name="today_screen_statistics_week">Week №%1$s</string>
+    <string name="today_screen_statistics_totally_completed">Totally: %1$s%%</string>
+    <string name="today_screen_habit_card_no_planned_habits">No planned habits</string>
+
+    <string name="today_screen_countable_dialog_title">Countable value set up</string>
+    <string name="today_screen_countable_dialog_value_label">Value</string>
+    <string name="today_screen_countable_dialog_info_icon_description" translatable="false">@string/habit_screen_countable_dialog_info_icon_description</string>
+    <string name="today_screen_countable_dialog_cancel_button" translatable="false">@string/cancel_button</string>
+    <string name="today_screen_countable_dialog_save_button" translatable="false">@string/save_button</string>
+
+    <!-- Settings screen -->
+    <string name="settings_screen_settings_title">Settings</string>
+
+    <string name="settings_screen_permissions_required_icon_description">Permissions required icon</string>
+    <string name="settings_screen_permission_summary">We want you to give access to ignoring battery optimisation and notification posting</string>
+    <string name="settings_screen_permissions_title">Permissions required</string>
+
+    <string name="settings_screen_language">Language</string>
+    <string name="settings_screen_language_icon_description">Language icon</string>
+
+    <string name="settings_screen_version">Version %1$s</string>
+    <string name="settings_screen_version_title">Version</string>
+    <string name="settings_screen_version_settings_icon_description">Settings icon</string>
+
+    <string name="settings_screen_up_to_date_title">Everything is up to date</string>
+    <string name="settings_screen_up_to_date_summary">You gave all required permissions</string>
+    <string name="settings_screen_up_to_date_icon_description">Everything is up to date icon</string>
+
+    <string name="settings_screen_emoji_title">Congratulations emoji</string>
+    <string name="settings_screen_emoji_energy_icon_description">Energy icon</string>
+    <string name="settings_screen_emoji_summary">Enter a few emoji to display on the stats screen when all scheduled habits are completed</string>
+    <string name="settings_screen_emoji_dialog_title">Set congrats emoji</string>
+    <string name="settings_screen_emoji_dialog_summary">Write your favorite emoji, separated by comma</string>
+    <string name="settings_screen_emoji_dialog_hint">Enter emoji separated by commas</string>
+    <string name="settings_screen_emoji_dialog_label">Emoji set</string>
+    <string name="settings_screen_emoji_dialog_save_button" translatable="false">@string/save_button</string>
+
+    <string name="settings_screen_extend_the_day_title">Extend the day</string>
+    <string name="settings_screen_extend_the_day_summary">Extend the current day and do not display new events until 3 am</string>
+    <string name="settings_screen_calendar_icon_description">Calendar color</string>
+    <!-- Habit screen -->
+    <string name="habit_screen_your_habits_title">Your habits</string>
+    <string name="habit_screen_remind_at">Remind you at %1$s</string>
+
+    <string name="habit_screen_add_new_habit_dialog_title">Add new habit</string>
+    <string name="habit_screen_add_new_habit_title">Title</string>
+    <string name="habit_screen_add_new_habit_description">Description</string>
+    <string name="habit_screen_add_new_habit_enter_something_error">Enter something</string>
+    <string name="habit_screen_add_new_habit_edit_days_for_habit_button">Edit days for habit</string>
+    <string name="habit_screen_add_new_habit_add_notification_button">Add notification</string>
+    <string name="habit_screen_add_new_habit_change_notification_button">Enable notification</string>
+    <string name="habit_screen_add_new_habit_add_habit_button">Add Habit</string>
+    <string name="habit_screen_add_new_habit_days_icon_description">Days icon</string>
+    <string name="habit_screen_add_new_habit_error_icon_description">Error icon\n</string>
+    <string name="habit_screen_add_new_habit_dialog_countable_icon_description">Countable icon</string>
+    <string name="habit_screen_add_new_habit_dialog_countable_new_button">Make it countable</string>
+    <string name="habit_screen_add_new_habit_dialog_countable_change_button">Countable</string>
+
+    <string name="habit_screen_choose_days_title">Set days for habit</string>
+    <string name="habit_screen_choose_time_set_notification_title">Set notification</string>
+    <string name="habit_screen_choose_days_save_button" translatable="false">@string/save_button</string>
+    <string name="habit_screen_choose_time_remove_button" translatable="false">@string/remove_button</string>
+    <string name="habit_screen_choose_time_cancel_button" translatable="false">@string/cancel_button</string>
+    <string name="habit_screen_choose_time_save_button" translatable="false">@string/save_button</string>
+
+    <string name="habit_screen_edit_habit_dialog_title">Edit habit</string>
+    <string name="habit_screen_edit_habit_enter_something_hint" translatable="false">@string/habit_screen_add_new_habit_enter_something_error</string>
+    <string name="habit_screen_edit_habit_title" translatable="false">@string/habit_screen_add_new_habit_title</string>
+    <string name="habit_screen_edit_habit_description" translatable="false">@string/habit_screen_add_new_habit_description</string>
+    <string name="habit_screen_edit_habit_days_icon_description" translatable="false">@string/habit_screen_add_new_habit_days_icon_description</string>
+    <string name="habit_screen_edit_habit_reminder_description" translatable="false">@string/reminder_icon_description</string>
+    <string name="habit_screen_edit_habit_change_notification_button" translatable="false">@string/habit_screen_add_new_habit_change_notification_button</string>
+    <string name="habit_screen_edit_habit_save_changes_button" translatable="false">@string/save_button</string>
+    <string name="habit_screen_edit_habit_error_icon_description" translatable="false">@string/habit_screen_add_new_habit_error_icon_description</string>
+    <string name="habit_screen_edit_habit_delete_button" translatable="false">@string/delete_button</string>
+    <string name="habit_screen_edit_habit_edit_days_button">Edit days for habit</string>
+    <string name="habit_screen_edit_habit_dialog_countable_icon_description" translatable="false">@string/habit_screen_add_new_habit_dialog_countable_icon_description</string>
+    <string name="habit_screen_edit_habit_dialog_countable_new_button" translatable="false">@string/habit_screen_add_new_habit_dialog_countable_new_button</string>
+    <string name="habit_screen_edit_habit_dialog_countable_change_icon" translatable="false">@string/habit_screen_add_new_habit_dialog_countable_change_button</string>
+
+    <string name="habit_screen_localize_icon_description">Localized icon</string>
+
+    <string name="habit_screen_countable_dialog_title">Countable value set up</string>
+    <string name="habit_screen_countable_dialog_value_action_label">Action</string>
+    <string name="habit_screen_countable_dialog_max_value_label">Max value</string>
+    <string name="habit_screen_countable_dialog_value_name_label">Name</string>
+    <string name="habit_screen_countable_dialog_info_icon_description">Info icon</string>
+
+    <string name="habit_screen_countable_dialog_remove_button" translatable="false">@string/remove_button</string>
+    <string name="habit_screen_countable_dialog_cancel_button" translatable="false">@string/cancel_button</string>
+    <string name="habit_screen_countable_dialog_save_button" translatable="false">@string/save_button</string>
+
+    <string name="add_edit_bottom_sheet_cancel_changes">Cancel changes</string>
+    <string name="add_edit_bottom_sheet_summary">Are you sure you want to close the dialog?</string>
+
+    <string name="impex_data_exported_to">Data exported to %1$s</string>
+    <string name="impex_failed_to_export_data">Failed to export data. File creation failed.</string>
+    <string name="impex_export_statistic">Export statistic</string>
+    <string name="impex_export_icon_description">Export icon</string>
+    <string name="impex_export_title">Export</string>
+    <string name="time_input_content_description">Enter time for set up notification</string>
+
+</resources>
